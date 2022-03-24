@@ -1,0 +1,155 @@
+.listContainer{
+    width: 100%;
+    padding: 40px 60px 0;
+
+}
+
+.headerDate{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.date{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.date div{
+   font-weight: bold;
+   font-size: 20px;
+   margin-right: 10px;
+}
+
+.date span{
+   color: #999;
+}
+
+.addbtn{
+ display: flex;
+ flex-direction: row;
+ justify-content: start;
+ margin-top: 6px;
+ cursor: pointer;
+}
+.addbtn .btn{
+    height: 20px;
+    line-height: 20px;
+
+  }
+
+
+.addbtn:hover .btn{
+    color: #cd5642;
+}
+
+.addbtn .add{
+  width: 20px;
+  height: 20px;
+  line-height: 18px;
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.addbtn:hover .add{
+    background-color: #cd5642;
+    color: #fff;
+}
+
+.inpGropu{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 15px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer .calbtn{
+   border-radius: 4px;
+   margin-left: 8px;
+   margin-bottom: 8px;
+}
+.footer .ant-btn > span{
+    font-size: 14px;
+}
+
+
+.comfirmBtn{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.confirm{
+    margin-right: 10px;
+}
+
+.listItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 0px 10px ;
+    margin-top: 20px;
+}
+
+.ItemText{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.radioIcon{
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.radioIcon:hover{
+    border-color: #4091f7;
+}
+
+.radioText{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.radioText div{
+   margin: 0;
+   padding: 0;
+   text-overflow: ellipsis;
+   overflow: hidden;
+   white-space: nowrap;
+   min-height: 20px;
+   line-height: 20px;
+   color: #999;
+}
+
+.radioText h3{
+    margin: 0;
+    padding: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    min-height: 25px;
+    line-height: 25px;
+ }
+
+.timecak{
+    color: #999;
+    display: inline-block;
+    margin: 0px 5px;
+}
